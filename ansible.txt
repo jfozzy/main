@@ -1,0 +1,43 @@
+What Ansible Is:
+Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.
+
+Being designed for multi-tier deployments since day one, Ansible models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time.
+
+It uses no agents and no additional custom security infrastructure, so it's easy to deploy - and most importantly, it uses a very simple language (YAML, in the form of Ansible Playbooks) that allow you to describe your automation jobs in a way that approaches plain English.
+
+https://www.ansible.com/how-ansible-works
+
+
+What Other Tools?
+
+Basically, Ansible 'plays in the sandbox' of a large number of deployment and configuration managment tools such as:
+
+-Jenkins
+-Salt
+-Puppet
+-Chef
+-Fabric
+
+However, Ansible works at a high enough level that it can also be used in conjunction with one or more of these tools.  Ansible is very often called an 'orchestration' tool since it can function independently as well as 'control' one or more of the tools listed above.
+
+
+
+What is YAML?
+
+Yet Another Markup Language OR YAML Ain't Markup Language
+-In short, YAML is meant to be a human readable data serialization format.  In other words, it's meant for non-computers (us) to be to easily read and recongnize the signifance of its content without complex translation applications.  It was designed to be easy to map to high level languages and you will often see it compared to key/value lists, associative arrays and data outlines.
+
+As a data structure, YAML most closely resembels an outline or list of things with basic descriptions.
+
+For example, if we wanted to list our favorite movies in a way that YAML processing engines woudl be able to recognize, our YAML file would contain something like: 
+
+---# Our Favorite Movies of ALl Time
+-  The Terminator
+-  Star Trek
+-  Star Wars
+
+
+YAML is a powerful configuration tool for our DevOps toolkit and is the perfect candiate for compiling and running complex configuration and deployment tasks in our Ansible Playbooks.  Spend some time with the basic concepts of YAML outside of its Ansible capabilities and it will help you in the long run.
+
+
+

@@ -1,0 +1,16 @@
+Simple Lists:
+---# Grocery List
+-  Bananas
+-  Apples
+-  Oranges
+-  Cereal
+-  Eggs
+
+
+OR
+
+
+Inline formatting liek:
+[bananas, apples, oranges, cereal, eggs]
+
+
